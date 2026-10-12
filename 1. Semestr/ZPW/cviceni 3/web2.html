@@ -1,0 +1,47 @@
+<head> 
+    *<link rel="stylesheet" href ="hnusnystyl.css">
+</head>
+
+<script>
+    function scitani() {
+
+         a = parseFloat(document.getElementById("a").value);
+         b = parseFloat(document.getElementById("b").value);
+        vysledek = a + b;
+
+        document.getElementById("a").value = vysledek;
+
+
+
+    }
+    function nasobeni() {
+        a = parseFloat(document.getElementById("a").value);
+        b = parseFloat(document.getElementById("b").value);
+                vysledek = a * b;
+
+        document.getElementById("a").value = vysledek;}
+    function ZmenaAB() {
+
+        a = parseFloat(document.getElementById("a").value);
+        b = parseFloat(document.getElementById("b").value);
+        t = a
+        a = b
+        b = t
+        document.getElementById("a").value = a;
+        document.getElementById("b").value = b;
+
+    }
+
+
+
+
+</script>
+
+<input type="text" id="a"> a <br>
+<input type="text" id="b"> b <br>
+<input type="button" value="Scitani" onclick="scitani()">
+<input type="button" value="Nasobeni" onclick="nasobeni()">
+<input type="button" value="ZmenaAB" onclick="ZmenaAB()">
+
+
+<h2 id="vysl">.</h2>
