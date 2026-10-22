@@ -1,0 +1,8 @@
+<?php 
+echo "tohle se vypíše";
+$c = "5 kg";
+$d = "8 kg";
+$e = $e + $d;
+echo $d;
+$f = $c.$d; 
+echo $f;
