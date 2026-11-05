@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="cs">
+<body>
+
+<form action="2.php" method ="past">
+    <input type="text" value ="abc" name="a">
+    <input type ="text" value = "123" name="b">
+    <input type="submit">
+</form>
+
+
+
+<input type = "hidden" value="co se ma pridat" name="cde">
+
+
+
+
+</body>
+</html>
