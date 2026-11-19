@@ -1,0 +1,1 @@
+python -c "import textkit; print(textkit.__file__)"
